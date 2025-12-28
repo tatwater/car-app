@@ -15,12 +15,14 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@clerk/clerk-expo": "^2.19.14",
     "@expo/vector-icons": "^15.0.3",
     "@react-native-masked-view/masked-view": "0.3.2",
     "@react-navigation/bottom-tabs": "^7.9.0",
     "@react-navigation/native": "^7.1.26",
     "@tamagui/babel-plugin": "^1.141.5",
     "@tamagui/config": "^1.141.5",
+    "convex": "^1.31.2",
     "expo": "~54.0.30",
     "expo-blur": "~15.0.8",
     "expo-constants": "~18.0.12",
@@ -28,6 +30,7 @@
     "expo-haptics": "~15.0.8",
     "expo-linking": "~8.0.11",
     "expo-router": "~6.0.21",
+    "expo-secure-store": "^15.0.8",
     "expo-splash-screen": "~31.0.13",
     "expo-status-bar": "~3.0.9",
     "expo-symbols": "~1.0.8",
@@ -46,6 +49,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.28.5",
+    "@convex-dev/auth": "^0.0.90",
     "@types/jest": "^30.0.0",
     "@types/react": "~19.2.7",
     "@types/react-test-renderer": "^19.1.0",
